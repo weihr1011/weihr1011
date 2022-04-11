@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allen Wei - Personal homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/755d823240.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">PROJECT</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">MORE</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>
+          Allen's homepage
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <a href="" class="hero-btn"> Click Here to Know More! </a>
+        </h1>
+      </div>
+    </section>
+    <!----project-->
+    <section class="project">
+      <h1>Academic projects</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="project-col">
+          <h3>Butterfly Effect</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem quidem soluta autem earum qui eveniet aspernatur
+            dolorem! Minima nemo inventore sunt molestias ullam sit quam
+            eveniet! Delectus aliquam pariatur nulla?
+          </p>
+        </div>
+        <div class="project-col">
+          <h3>Sod's Shock tube</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem quidem soluta autem earum qui eveniet aspernatur
+            dolorem! Minima nemo inventore sunt molestias ullam sit quam
+            eveniet! Delectus aliquam pariatur nulla?
+          </p>
+        </div>
+        <div class="project-col">
+          <h3>N Body Choreography</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem quidem soluta autem earum qui eveniet aspernatur
+            dolorem! Minima nemo inventore sunt molestias ullam sit quam
+            eveniet! Delectus aliquam pariatur nulla?
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="projects">
+      <h1>Academic Projects</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci nulla
+        impedit quasi voluptas iusto odit magni tempore sunt laboriosam illo
+        unde reprehenderit incidunt, nisi, dolores facilis ipsa tempora earum
+        quo?
+      </p>
+      <div class="row">
+        <div class="projects-col">
+          <img src="images/butterfly.jpg" />
+          <div class="layer">
+            <h3>Butterfly Effect</h3>
+          </div>
+        </div>
+        <div class="projects-col">
+          <img src="images/sod's shock tube.jpg" />
+          <div class="layer">
+            <h3>Sod's Shock Tube</h3>
+          </div>
+        </div>
+        <div class="projects-col">
+          <img src="images/picture3.jpg" />
+          <div class="layer">
+            <h3>N Body Choreography</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Facilities-->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id alias qui
+        minus veniam inventore, sunt, quo sequi a nam blanditiis amet architecto
+        veritatis minima assumenda? Quod sapiente reprehenderit magnam nihil.
+      </p>
+    </section>
+    <!---JavaScript for toggle menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
