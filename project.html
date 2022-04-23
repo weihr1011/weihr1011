@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Allen Wei - Personal homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/755d823240.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-square-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="">PROJECT</a></li>
+            <li><a href="">BLOG</a></li>
+            <li><a href="">CONTACT</a></li>
+            <li><a href="">MORE</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+      <h1>Projects</h1>
+    </section>
+    <!---project-->
+    <!-- <section class="project">
+      <h1>Projects</h1>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="project-col">
+          <h3>Butterfly Effect</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem quidem soluta autem earum qui eveniet aspernatur
+            dolorem! Minima nemo inventore sunt molestias ullam sit quam
+            eveniet! Delectus aliquam pariatur nulla?
+          </p>
+        </div>
+        <div class="project-col">
+          <h3>Sod's Shock tube</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem quidem soluta autem earum qui eveniet aspernatur
+            dolorem! Minima nemo inventore sunt molestias ullam sit quam
+            eveniet! Delectus aliquam pariatur nulla?
+          </p>
+        </div>
+        <div class="project-col">
+          <h3>N Body Choreography</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+            Exercitationem quidem soluta autem earum qui eveniet aspernatur
+            dolorem! Minima nemo inventore sunt molestias ullam sit quam
+            eveniet! Delectus aliquam pariatur nulla?
+          </p>
+        </div>
+      </div>
+    </section> -->
+    <!---facilities-->
+    <section class="facilities">
+      <h1>Projects</h1>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+      <div class="row">
+        <div class="facilities-col">
+          <div class="d"><img src="images/butterfly.jpg" /></div>
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+          <div class="d"><img src="images/sod's shock tube.jpg" /></div>
+          <h3>Project 2</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+        <div class="facilities-col">
+          <div class="d"><img src="images/picture3.jpg" /></div>
+          <h3>Project 3</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        </div>
+      </div>
+      <!---footer-->
+      <section class="footer">
+        <h4>About me</h4>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+        <div class="icons">
+          <i class="fa fa-facebook"></i>
+          <i class="fa fa-twitter"></i>
+          <i class="fa fa-instagram"></i>
+          <i class="fa fa-linkedin"></i>
+        </div>
+      </section>
+    </section>
+    <!---JavaScript for toggle menu-->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
